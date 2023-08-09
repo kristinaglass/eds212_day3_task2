@@ -1,0 +1,33 @@
+---
+title: "eds12-day3-dailytasks"
+format: html
+editor: visual
+---
+
+## creating vectors
+
+```{r}
+vec_a <- c(1, 6)
+
+vec_b <- c(2, 4)
+```
+
+## Adding and Subtracting Vectors
+
+```{r}
+vec_a + vec_b
+
+vec_b - vec_a
+```
+
+## Multiplying Vectors
+
+```{r}
+4 * vec_a
+```
+
+## Dots
+
+```{r}
+vec_a %*% vec_b
+```
